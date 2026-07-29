@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 
@@ -21,7 +21,13 @@ export default function Hero() {
       dark:text-white
       "
     >
-
+<Image
+  src="/images/profile-new.jpg"
+  alt="Misna profile picture"
+  width={200}
+  height={200}
+  className="rounded-full object-cover mb-8"
+/>
       <motion.h1
         initial={{
           opacity: 0,
@@ -39,7 +45,7 @@ export default function Hero() {
 
         className="text-5xl font-bold"
       >
-        Hi, I'm Misna 👋
+        Hi, I'm  Fathima Misna TP 👋
       </motion.h1>
 
 
@@ -62,7 +68,7 @@ export default function Hero() {
 
         className="mt-4 text-xl"
       >
-        Full Stack Developer
+        Full Stack Flutter Developer
       </motion.p>
 
 

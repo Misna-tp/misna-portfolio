@@ -39,7 +39,7 @@ dark:text-white
 >
 
       <h1 className="text-2xl font-bold">
-        Misna
+       
       </h1>
 
 
@@ -49,9 +49,9 @@ dark:text-white
           Home
         </a>
 
-        <a href="#">
-          About
-        </a>
+       <a href="#about">
+  About
+</a>
 
         <a href="#">
           Projects
