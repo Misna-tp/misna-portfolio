@@ -7,8 +7,7 @@ export default function Hero() {
 
   return (
 
-    <section
-      className="
+   <section id="home" className="
       min-h-screen 
       flex 
       flex-col 

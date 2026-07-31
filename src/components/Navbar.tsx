@@ -1,10 +1,33 @@
 
 
 "use client";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import ThemeToggle from "./ThemeToggle";
 export default function Navbar() {
+const [activeSection, setActiveSection] = useState("home");
+useEffect(() => {
+  const sections = document.querySelectorAll("section");
 
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          setActiveSection(entry.target.id);
+        }
+      });
+    },
+    {
+      threshold: 0.6,
+    }
+  );
+
+  sections.forEach((section) => observer.observe(section));
+
+  return () => {
+    sections.forEach((section) => observer.unobserve(section));
+  };
+}, []);
   return (
 <motion.nav
 
@@ -45,11 +68,19 @@ dark:text-white
 
       <div className="flex gap-6">
 
-        <a href="#">
-          Home
-        </a>
+ <a
+  href="#home"
+  onClick={() => setActiveSection("home")}
+  className={activeSection === "home" ? "text-blue-500" : ""}
+>
+  Home
+</a>
 
-       <a href="#about">
+  <a
+  href="#about"
+  onClick={() => setActiveSection("about")}
+  className={activeSection === "about" ? "text-blue-500" : ""}
+>
   About
 </a>
 
