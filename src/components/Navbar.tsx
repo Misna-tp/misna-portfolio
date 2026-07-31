@@ -83,6 +83,13 @@ dark:text-white
 >
   About
 </a>
+<a
+  href="#skills"
+  onClick={() => setActiveSection("skills")}
+  className={activeSection === "skills" ? "text-blue-500" : ""}
+>
+  Skills
+</a>
 
         <a href="#">
           Projects
