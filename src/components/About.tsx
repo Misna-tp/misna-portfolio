@@ -4,7 +4,7 @@ export default function About() {
   id="about"
    className="py-20 bg-white dark:bg-black"
 >
-     <div className="max-w-5xl mx-auto px-6">
+     <div className="max-w-6xl mx-auto px-6">
       <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">
         About Me</h2>
 

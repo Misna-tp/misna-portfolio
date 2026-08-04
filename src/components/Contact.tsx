@@ -18,7 +18,6 @@ export default function Contact() {
           Interested in working together? Feel free to reach out through the information below.
         </p>
 
-      </div>
       <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-16">
 
   {/* Left Side */}
@@ -178,6 +177,7 @@ export default function Contact() {
 
 </div>
 
+</div>
 </div>
     </section>
   );
