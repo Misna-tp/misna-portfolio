@@ -106,13 +106,13 @@ dark:text-white
   Projects
 </a>
 
-        <a
+        {/* <a
   href="#blog"
   onClick={() => setActiveSection("blog")}
   className={activeSection === "blog" ? "text-blue-500" : ""}
 >
   Blog
-</a>
+</a> */}
 
        <a
   href="#contact"

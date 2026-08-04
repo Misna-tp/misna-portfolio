@@ -3,8 +3,8 @@ import { Mail } from "lucide-react";
 export default function Footer() {
   return (
     <footer className="border-t border-gray-200 dark:border-gray-700 bg-white dark:bg-black">
-      <div className="max-w-6xl mx-auto px-6 py-16">
-<div className="flex flex-col md:flex-row justify-between items-center gap-10">
+      <div className="max-w-6xl mx-auto px-6 py-12">
+<div className="flex flex-col md:flex-row md:items-center md:justify-between gap-10">
 
           {/* Left Side */}
           <div className="text-center md:text-left">
@@ -22,31 +22,31 @@ export default function Footer() {
           </div>
 
           {/* Right Side */}
-          <div className="flex items-center gap-6">
+          <div className="flex items-center justify-center gap-8">
 
   <a
     href="https://github.com/Misna-tp"
     target="_blank"
     rel="noopener noreferrer"
-    className="text-gray-500 hover:text-blue-600 transition"
+    className="text-gray-400 hover:text-blue-500 hover:scale-110 transition-all duration-300"
   >
-    <FaGithub size={24} />
+    <FaGithub size={28} />
   </a>
 
   <a
     href="https://www.linkedin.com/in/fathima-misnatp"
     target="_blank"
     rel="noopener noreferrer"
-    className="text-gray-500 hover:text-blue-600 transition"
+className="text-gray-400 hover:text-blue-500 hover:scale-110 transition-all duration-300"
   >
-    <FaLinkedin size={24} />
+    <FaLinkedin size={28} />
   </a>
 
   <a
     href="mailto:fathimamisnatp@gmail.com"
-    className="text-gray-500 hover:text-blue-600 transition"
+    className="text-gray-400 hover:text-blue-500 hover:scale-110 transition-all duration-300"
   >
-    <Mail size={24} />
+    <Mail size={28} />
   </a>
 
 </div>

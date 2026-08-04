@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { motion } from "framer-motion";
-
+import { ArrowRight, Download } from "lucide-react";
 
 export default function Hero() {
 
@@ -88,10 +88,68 @@ export default function Hero() {
 
         className="mt-6 max-w-xl text-gray-600"
       >
-        I build modern applications with Flutter,
-        Node.js and web technologies.
+        {/* I build modern applications with Flutter,
+        Node.js and web technologies. */}
+        I build responsive Flutter applications with clean UI,
+REST API integration, and modern state management.
       </motion.p>
+<motion.div
+  initial={{ opacity: 0, y: 30 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.8, delay: 0.6 }}
+  className="mt-10 flex flex-col sm:flex-row gap-4"
+>
 
+  {/* View Projects */}
+
+  <a
+    href="#projects"
+    className="
+      inline-flex
+      items-center
+      justify-center
+      gap-2
+      px-6
+      py-3
+      rounded-xl
+      bg-blue-600
+      text-white
+      font-semibold
+      hover:bg-blue-700
+      transition-all
+    "
+  >
+    View Projects
+    <ArrowRight size={18} />
+  </a>
+
+  {/* Download Resume */}
+
+  <a
+    href="/resume/Fathima_Misna_Resume.pdf"
+    download
+    className="
+      inline-flex
+      items-center
+      justify-center
+      gap-2
+      px-6
+      py-3
+      rounded-xl
+      border
+      border-blue-600
+      text-blue-600
+      font-semibold
+      hover:bg-blue-600
+      hover:text-white
+      transition-all
+    "
+  >
+    Download Resume
+    <Download size={18} />
+  </a>
+
+</motion.div>
 
     </section>
 
