@@ -4,8 +4,10 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import ThemeToggle from "./ThemeToggle";
+import { usePathname } from "next/navigation";
 export default function Navbar() {
 const [activeSection, setActiveSection] = useState("home");
+const pathname = usePathname();
 useEffect(() => {
   const sections = document.querySelectorAll("section");
 
@@ -91,17 +93,34 @@ dark:text-white
   Skills
 </a>
 
-        <a href="#">
-          Projects
-        </a>
+        <a
+  href="#projects"
+  onClick={() => setActiveSection("projects")}
+  className={
+    activeSection === "projects" ||
+    pathname.startsWith("/projects")
+      ? "text-blue-500"
+      : ""
+  }
+>
+  Projects
+</a>
 
-        <a href="#">
-          Blog
-        </a>
+        <a
+  href="#blog"
+  onClick={() => setActiveSection("blog")}
+  className={activeSection === "blog" ? "text-blue-500" : ""}
+>
+  Blog
+</a>
 
-        <a href="#">
-          Contact
-        </a>
+       <a
+  href="#contact"
+  onClick={() => setActiveSection("contact")}
+  className={activeSection === "contact" ? "text-blue-500" : ""}
+>
+  Contact
+</a>
 
 <ThemeToggle />
 
