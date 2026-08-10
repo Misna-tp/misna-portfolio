@@ -41,7 +41,19 @@ export default function Projects() {
     description="A Flutter application that allows users to securely manage their book collection with authentication, CRUD operations, and REST API integration."
     href="/projects/book-management-app"
   />
-
+<ProjectCard
+  image="/images/taskflow/dashboard.png"
+  title="TaskFlow"
+  technologies={[
+    "Flutter",
+    "Riverpod",
+    "Dio",
+    "Hive",
+    "Flutter ScreenUtil",
+  ]}
+  description="A modern Flutter application for task and project management featuring authentication, team collaboration, notifications, and responsive UI."
+  href="/projects/taskflow"
+/>
 </div>
 </div>
     </section>
