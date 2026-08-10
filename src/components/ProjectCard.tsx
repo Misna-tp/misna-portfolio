@@ -4,10 +4,11 @@ import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 type ProjectCardProps = {
-     image: string;
+  image: string;
   title: string;
   technologies: string[];
   description: string;
+  href: string;
 };
 
 export default function ProjectCard({
@@ -15,6 +16,7 @@ export default function ProjectCard({
   title,
   technologies,
   description,
+  href,
 }: ProjectCardProps) {
   return (
     <motion.div
@@ -68,7 +70,7 @@ export default function ProjectCard({
         </p>
       <div className="mt-6">
   <Link
-  href="/projects/boutique-management-system"
+  href={href}
   className="
     mt-6
     inline-flex
