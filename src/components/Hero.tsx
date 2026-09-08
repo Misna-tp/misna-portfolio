@@ -20,12 +20,19 @@ export default function Hero() {
       dark:text-white
       "
     >
-<Image
+{/* <Image
   src="/images/profile-new.jpg"
   alt="Misna profile picture"
   width={200}
   height={200}
   className="rounded-full object-cover mb-8"
+/> */}
+<Image
+  src="/images/profile-new.jpg"
+  alt="Misna profile picture"
+  width={200}
+  height={240}
+  className="w-[180px] h-[220px] sm:w-[200px] sm:h-[240px] rounded-[50%] object-cover object-top mb-8"
 />
       <motion.h1
         initial={{
