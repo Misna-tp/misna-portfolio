@@ -122,7 +122,7 @@ export default function Contact() {
 
   {/* Right Side */}
 
-<div className="rounded-2xl border border-gray-200 dark:border-gray-700 p-8">
+{/* <div className="rounded-2xl border border-gray-200 dark:border-gray-700 p-8">
 
   <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
     Send Me a Message
@@ -175,7 +175,7 @@ export default function Contact() {
 
   </form>
 
-</div>
+</div> */}
 
 </div>
 </div>

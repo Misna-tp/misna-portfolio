@@ -16,7 +16,7 @@ export default function Projects() {
 <div className="space-y-12">
 
   <ProjectCard
-    image="/images/boutique-dashboard.png"
+    // image="/images/boutique-dashboard.png"
     title="Boutique Management System"
     technologies={[
       "Flutter",
@@ -55,7 +55,7 @@ export default function Projects() {
   href="/projects/taskflow"
 />
 <ProjectCard
-  image="/images/crew/dashboard.png"
+  // image="/images/crew/dashboard.png"
   title="Crew"
   technologies={[
     "Flutter",

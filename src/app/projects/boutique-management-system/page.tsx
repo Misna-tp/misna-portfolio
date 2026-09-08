@@ -9,28 +9,28 @@ export const metadata: Metadata = {
   description:
     "Flutter frontend project featuring responsive UI, Riverpod state management, and REST API integration.",
 };
-const gallery = [
-  {
-    title: "Login Screen",
-    image: "/images/login.png",
-  },
-  {
-    title: "Orders",
-    image: "/images/orders.png",
-  },
-  {
-    title: "Payroll",
-    image: "/images/payroll.png",
-  },
-  {
-    title: "Expense",
-    image: "/images/expense.png",
-  },
-  {
-    title: "Fabrics",
-    image: "/images/fabrics.png",
-  },
-];
+// const gallery = [
+//   {
+//     title: "Login Screen",
+//     image: "/images/login.png",
+//   },
+//   {
+//     title: "Orders",
+//     image: "/images/orders.png",
+//   },
+//   {
+//     title: "Payroll",
+//     image: "/images/payroll.png",
+//   },
+//   {
+//     title: "Expense",
+//     image: "/images/expense.png",
+//   },
+//   {
+//     title: "Fabrics",
+//     image: "/images/fabrics.png",
+//   },
+// ];
 const technologies = [
   "Flutter",
   "Dart",
@@ -60,7 +60,7 @@ export default function BoutiqueProjectPage() {
   order processing, payroll, expenses, invoice generation, and responsive user
   interfaces.
 </p>
-<div className="mt-12 flex justify-center">
+{/* <div className="mt-12 flex justify-center">
   <Image
     src="/images/boutique-dashboard.png"
     alt="Boutique Dashboard"
@@ -68,6 +68,17 @@ export default function BoutiqueProjectPage() {
     height={450}
     className="rounded-2xl shadow-xl max-h-[450px] w-auto"
   />
+</div> */}
+<div className="mt-12 flex justify-center">
+  <div className="w-[220px] h-[300px] rounded-2xl border border-gray-300 dark:border-gray-700 bg-gray-100 dark:bg-zinc-900 flex flex-col items-center justify-center text-center px-6 shadow-xl">
+    <span className="text-2xl font-bold text-blue-600 dark:text-blue-400">
+      BOUTIQUE
+    </span>
+
+    <span className="mt-3 text-sm text-gray-500 dark:text-gray-400">
+      Confidential Project
+    </span>
+  </div>
 </div>
 <section className="mt-20">
   <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
@@ -175,6 +186,67 @@ export default function BoutiqueProjectPage() {
   </div>
 </section>
 <hr className="my-20 border-gray-200 dark:border-gray-700" />
+
+<section className="mt-20">
+  <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
+    Project Highlights
+  </h2>
+
+  <p className="mt-4 text-lg text-gray-600 dark:text-gray-300 leading-8">
+    Due to project confidentiality, application screenshots cannot be
+    publicly displayed. The project details below describe the functionality
+    and technologies I worked with.
+  </p>
+
+  <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
+
+    <div className="rounded-xl border border-gray-200 dark:border-gray-700 p-6">
+      <h3 className="font-semibold text-xl text-gray-900 dark:text-white">
+        Customer Management
+      </h3>
+
+      <p className="mt-2 text-gray-600 dark:text-gray-300">
+        Developed interfaces for managing customer information and related
+        business workflows.
+      </p>
+    </div>
+
+    <div className="rounded-xl border border-gray-200 dark:border-gray-700 p-6">
+      <h3 className="font-semibold text-xl text-gray-900 dark:text-white">
+        Order Management
+      </h3>
+
+      <p className="mt-2 text-gray-600 dark:text-gray-300">
+        Implemented order-related screens and workflows for viewing and
+        managing customer orders.
+      </p>
+    </div>
+
+    <div className="rounded-xl border border-gray-200 dark:border-gray-700 p-6">
+      <h3 className="font-semibold text-xl text-gray-900 dark:text-white">
+        Payroll & Expenses
+      </h3>
+
+      <p className="mt-2 text-gray-600 dark:text-gray-300">
+        Built interfaces for payroll and expense management and integrated
+        them with backend APIs.
+      </p>
+    </div>
+
+    <div className="rounded-xl border border-gray-200 dark:border-gray-700 p-6">
+      <h3 className="font-semibold text-xl text-gray-900 dark:text-white">
+        Invoice Management
+      </h3>
+
+      <p className="mt-2 text-gray-600 dark:text-gray-300">
+        Implemented invoice-related functionality as part of the boutique
+        management workflow.
+      </p>
+    </div>
+
+  </div>
+</section>
+{/* <hr className="my-20 border-gray-200 dark:border-gray-700" />
 <section className="mt-20">
   <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
     Application Gallery
@@ -195,7 +267,7 @@ export default function BoutiqueProjectPage() {
 
 </div>
 
-</section>
+</section> */}
 </div>
     </main>
   );

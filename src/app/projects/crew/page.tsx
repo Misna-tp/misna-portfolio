@@ -9,36 +9,36 @@ export const metadata: Metadata = {
   description:
     "A cross-platform Flutter application for event and staff management, including event planning, staff allocation, equipment tracking, QR check-ins, invoicing, and payments.",
 };
-const gallery = [
-  {
-    title: "Login",
-    image: "/images/crew/login.png",
-  },
-  {
-    title: "Dashboard",
-    image: "/images/crew/dashboard.png",
-  },
-  {
-    title: "Staff List",
-    image: "/images/crew/staff-list.png",
-  },
-  {
-    title: "Shift Management",
-    image: "/images/crew/shift.png",
-  },
-  {
-    title: "Organization Profile",
-    image: "/images/crew/organization-profile.png",
-  },
-  {
-    title: "Organizers",
-    image: "/images/crew/organizers.png",
-  },
-  {
-    title: "Earnings",
-    image: "/images/crew/earning.png",
-  },
-];
+// const gallery = [
+//   {
+//     title: "Login",
+//     image: "/images/crew/login.png",
+//   },
+//   {
+//     title: "Dashboard",
+//     image: "/images/crew/dashboard.png",
+//   },
+//   {
+//     title: "Staff List",
+//     image: "/images/crew/staff-list.png",
+//   },
+//   {
+//     title: "Shift Management",
+//     image: "/images/crew/shift.png",
+//   },
+//   {
+//     title: "Organization Profile",
+//     image: "/images/crew/organization-profile.png",
+//   },
+//   {
+//     title: "Organizers",
+//     image: "/images/crew/organizers.png",
+//   },
+//   {
+//     title: "Earnings",
+//     image: "/images/crew/earning.png",
+//   },
+// ];
 const technologies = [
   "Flutter",
   "Dart",
@@ -75,13 +75,15 @@ export default function CrewProjectPage() {
   QR-based check-ins, invoicing, and payments.
 </p>
 <div className="mt-12 flex justify-center">
-  <Image
-  src="/images/crew/dashboard.png"
-  alt="Crew Dashboard"
-  width={220}
-  height={450}
-  className="rounded-2xl shadow-xl max-h-[450px] w-auto"
-/>
+  <div className="w-[220px] h-[300px] rounded-2xl border border-gray-300 dark:border-gray-700 bg-gray-100 dark:bg-zinc-900 flex flex-col items-center justify-center text-center px-6 shadow-xl">
+    <span className="text-3xl font-bold text-blue-600 dark:text-blue-400">
+      CREW
+    </span>
+
+    <span className="mt-3 text-sm text-gray-500 dark:text-gray-400">
+      Confidential Project
+    </span>
+  </div>
 </div>
 <section className="mt-20">
   <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
@@ -197,6 +199,67 @@ export default function CrewProjectPage() {
 </div>
 </section>
 <hr className="my-20 border-gray-200 dark:border-gray-700" />
+
+<section className="mt-20">
+  <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
+    Project Highlights
+  </h2>
+
+  <p className="mt-4 text-lg text-gray-600 dark:text-gray-300 leading-8">
+    Due to project confidentiality, application screenshots cannot be
+    publicly displayed. The project details below describe the functionality
+    and technologies I worked with.
+  </p>
+
+  <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
+
+    <div className="rounded-xl border border-gray-200 dark:border-gray-700 p-6">
+      <h3 className="font-semibold text-xl text-gray-900 dark:text-white">
+        Event Management
+      </h3>
+
+      <p className="mt-2 text-gray-600 dark:text-gray-300">
+        Supported event creation, editing, location management, and event
+        tracking workflows.
+      </p>
+    </div>
+
+    <div className="rounded-xl border border-gray-200 dark:border-gray-700 p-6">
+      <h3 className="font-semibold text-xl text-gray-900 dark:text-white">
+        Staff Management
+      </h3>
+
+      <p className="mt-2 text-gray-600 dark:text-gray-300">
+        Implemented staff listing, staff allocation, shift management, and
+        organization-related workflows.
+      </p>
+    </div>
+
+    <div className="rounded-xl border border-gray-200 dark:border-gray-700 p-6">
+      <h3 className="font-semibold text-xl text-gray-900 dark:text-white">
+        QR & Location Features
+      </h3>
+
+      <p className="mt-2 text-gray-600 dark:text-gray-300">
+        Worked with QR scanning and location-based functionality using
+        Flutter integrations.
+      </p>
+    </div>
+
+    <div className="rounded-xl border border-gray-200 dark:border-gray-700 p-6">
+      <h3 className="font-semibold text-xl text-gray-900 dark:text-white">
+        Payments & Earnings
+      </h3>
+
+      <p className="mt-2 text-gray-600 dark:text-gray-300">
+        Worked with payment-related workflows and earnings management using
+        Razorpay integration.
+      </p>
+    </div>
+
+  </div>
+</section>
+{/* <hr className="my-20 border-gray-200 dark:border-gray-700" />
 <section className="mt-20">
   <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
     Application Gallery
@@ -215,9 +278,9 @@ export default function CrewProjectPage() {
   />
 ))}
 
-</div>
+</div> */}
 
-</section>
+{/* </section> */}
 </div>
     </main>
   );
