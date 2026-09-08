@@ -1,6 +1,8 @@
 import GalleryCard from "@/components/GalleryCard";
 import Image from "next/image";
 import type { Metadata } from "next";
+import Link from "next/link";
+import { ArrowLeft } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Book Management App| Fathima Misna",
@@ -45,6 +47,15 @@ const technologies = [
 export default function BookManagementProjectPage() {
   return (
     <main className="min-h-screen bg-white dark:bg-black">
+        <div className="max-w-6xl mx-auto px-6 pt-8">
+    <Link
+      href="/#projects"
+      className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-medium transition"
+    >
+      <ArrowLeft size={18} />
+      Back to Projects
+    </Link>
+  </div>
 <div className="max-w-6xl mx-auto px-6 py-20">
 <h1 className="text-5xl font-bold text-gray-900 dark:text-white">
   Book Management App
