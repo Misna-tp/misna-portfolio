@@ -4,7 +4,7 @@ import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 type ProjectCardProps = {
-  image: string;
+  image?: string;
   title: string;
   technologies: string[];
   description: string;
@@ -41,14 +41,26 @@ export default function ProjectCard({
 >
    <div className="flex gap-10 items-start">
 <div className="w-1/4 flex justify-center">
-  <Image
-    src={image}
-    alt={title}
-    width={180}
-    height={360}
-    className="rounded-xl"
-  />
-</div>  
+  {image ? (
+    <Image
+      src={image}
+      alt={title}
+      width={180}
+      height={360}
+      className="rounded-xl"
+    />
+  ) : (
+ <div className="w-[180px] h-[180px] rounded-2xl border border-gray-300 dark:border-gray-700 bg-gray-100 dark:bg-zinc-800 flex flex-col items-center justify-center text-center px-4">
+  <span className="text-3xl font-bold text-blue-600 dark:text-blue-400">
+    {title === "Boutique Management System" ? "BOUTIQUE" : "CREW"}
+  </span>
+
+  <span className="mt-3 text-sm text-gray-500 dark:text-gray-400">
+    Confidential Project
+  </span>
+</div>
+  )}
+</div>
 <div className="w-3/4">
 <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
           {title}
