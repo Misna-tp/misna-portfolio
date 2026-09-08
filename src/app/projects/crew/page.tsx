@@ -115,7 +115,7 @@ export default function CrewProjectPage() {
 
   <p>• Implemented event, staff, and equipment management interfaces.</p>
 
-  <p>• Worked with QR scanning, maps, notifications, and payment-related features.</p>
+  {/* <p>• Worked with QR scanning, maps, notifications, and payment-related features.</p> */}
 </div>
 </section>
 <hr className="my-20 border-gray-200 dark:border-gray-700" />
@@ -234,7 +234,7 @@ export default function CrewProjectPage() {
         organization-related workflows.
       </p>
     </div>
-
+{/* 
     <div className="rounded-xl border border-gray-200 dark:border-gray-700 p-6">
       <h3 className="font-semibold text-xl text-gray-900 dark:text-white">
         QR & Location Features
@@ -244,7 +244,7 @@ export default function CrewProjectPage() {
         Worked with QR scanning and location-based functionality using
         Flutter integrations.
       </p>
-    </div>
+    </div> */}
 
     <div className="rounded-xl border border-gray-200 dark:border-gray-700 p-6">
       <h3 className="font-semibold text-xl text-gray-900 dark:text-white">

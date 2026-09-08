@@ -26,7 +26,7 @@ export default function About() {
 
       <p className="mt-8 text-lg leading-9 text-gray-600 dark:text-gray-300">
         With experience in Flutter, Dart, Riverpod, Node.js, Express.js, MySQL,
-        Firebase, Hive, Git, and REST APIs, I'm continuously expanding my
+        App Deployment, Hive, Git, and REST APIs, I'm continuously expanding my
         expertise while delivering solutions that balance performance,
         usability, and scalability.
       </p>
