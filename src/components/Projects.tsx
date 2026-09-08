@@ -54,6 +54,20 @@ export default function Projects() {
   description="A modern Flutter application for task and project management featuring authentication, team collaboration, notifications, and responsive UI."
   href="/projects/taskflow"
 />
+<ProjectCard
+  image="/images/crew/dashboard.png"
+  title="Crew"
+  technologies={[
+    "Flutter",
+    "Dart",
+    "Riverpod",
+    "GoRouter",
+    "Google Maps",
+    "Razorpay",
+  ]}
+  description="A cross-platform event and staff management application for organizing events, allocating staff and equipment, managing check-ins, invoicing, and payments."
+  href="/projects/crew"
+/>
 </div>
 </div>
     </section>
