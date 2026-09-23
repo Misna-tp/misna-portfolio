@@ -42,7 +42,7 @@ export default function Projects() {
     href="/projects/book-management-app"
   />
 <ProjectCard
-  image="/images/taskflow/dashboard.png"
+  // image="/images/taskflow/dashboard.png"
   title="TaskFlow"
   technologies={[
     "Flutter",

@@ -10,36 +10,36 @@ export const metadata: Metadata = {
   description:
     "TaskFlow is a modern, responsive, and robust task and project management application built with Flutter. It helps users organize projects, manage tasks, collaborate with teams, and stay productive through an intuitive and responsive interface.",
 };
-const gallery = [
-  {
-    title: "Login Screen",
-    image: "/images/taskflow/login.png",
-  },
-  {
-    title: "Dashboard",
-    image: "/images/taskflow/dashboard.png",
-  },
-  {
-    title: "Project List",
-    image: "/images/taskflow/project-list.png",
-  },
-  {
-    title: "Task List",
-    image: "/images/taskflow/task-list.png",
-  },
-  {
-    title: "Create Task",
-    image: "/images/taskflow/create-task.png",
-  },
-  {
-    title: "Users List",
-    image: "/images/taskflow/users-list.png",
-  },
-  {
-    title: "Create User",
-    image: "/images/taskflow/create-user.png",
-  },
-];
+// const gallery = [
+//   {
+//     title: "Login Screen",
+//     image: "/images/taskflow/login.png",
+//   },
+//   {
+//     title: "Dashboard",
+//     image: "/images/taskflow/dashboard.png",
+//   },
+//   {
+//     title: "Project List",
+//     image: "/images/taskflow/project-list.png",
+//   },
+//   {
+//     title: "Task List",
+//     image: "/images/taskflow/task-list.png",
+//   },
+//   {
+//     title: "Create Task",
+//     image: "/images/taskflow/create-task.png",
+//   },
+//   {
+//     title: "Users List",
+//     image: "/images/taskflow/users-list.png",
+//   },
+//   {
+//     title: "Create User",
+//     image: "/images/taskflow/create-user.png",
+//   },
+// ];
 const technologies = [
   "Flutter",
   "Dart",
@@ -71,7 +71,7 @@ export default function TaskFlowProjectPage() {
 <p className="mt-6 text-lg text-gray-600 dark:text-gray-300 leading-8">
   A Flutter application designed to manage tasks and projects through secure authentication and CRUD operations. The application provides an intuitive interface for users to add, update, delete, and organize tasks while communicating with a backend using REST APIs.
 </p>
-<div className="mt-12 flex justify-center">
+{/* <div className="mt-12 flex justify-center">
   <Image
     src="/images/taskflow/login.png"
     alt="TaskFlow - Login"
@@ -79,7 +79,7 @@ export default function TaskFlowProjectPage() {
     height={450}
     className="rounded-2xl shadow-xl max-h-[450px] w-auto"
   />
-</div>
+</div> */}
 <section className="mt-20">
   <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
     TaskFlow
@@ -186,28 +186,7 @@ Responsive layouts with light and dark themes that adapt across devices.
 
 </div>
 </section>
-<hr className="my-20 border-gray-200 dark:border-gray-700" />
-<section className="mt-20">
-  <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
-    Application Gallery
-  </h2>
 
-  <p className="mt-4 text-gray-600 dark:text-gray-300">
-    Screens from the Flutter application demonstrating key features and user interface design.
-  </p>
-  <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-
-{gallery.map((screen) => (
-  <GalleryCard
-    key={screen.title}
-    image={screen.image}
-    title={screen.title}
-  />
-))}
-
-</div>
-
-</section>
 </div>
     </main>
   );
