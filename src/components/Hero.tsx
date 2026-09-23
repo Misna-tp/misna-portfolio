@@ -32,6 +32,7 @@ export default function Hero() {
   alt="Misna profile picture"
   width={200}
   height={240}
+   loading="eager"
   className="w-[180px] h-[220px] sm:w-[200px] sm:h-[240px] rounded-[50%] object-cover object-top mb-8"
 />
       <motion.h1

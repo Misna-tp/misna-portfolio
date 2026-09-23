@@ -56,9 +56,7 @@ export default function BoutiqueProjectPage() {
   Boutique Management System
 </h1>
 <p className="mt-6 text-lg text-gray-600 dark:text-gray-300 leading-8">
-  A Flutter-based boutique management application focused on customer management,
-  order processing, payroll, expenses, invoice generation, and responsive user
-  interfaces.
+ A Flutter-based application developed for business management workflows.
 </p>
 {/* <div className="mt-12 flex justify-center">
   <Image
@@ -86,12 +84,9 @@ export default function BoutiqueProjectPage() {
   </h2>
 
     <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
-    Boutique Management System is a Flutter application developed to simplify
-    the daily operations of a boutique. The application helps manage customers,
-    orders, payroll, expenses, and invoices through a clean and responsive user
-    interface. It communicates with backend APIs to keep business data organized
-    and up to date.
-  </p>
+  Boutique Management System is a Flutter-based application developed to
+  support business management workflows through a responsive mobile interface.
+</p>
   
 </section>
 <hr className="my-20 border-gray-200 dark:border-gray-700" />
@@ -101,13 +96,12 @@ export default function BoutiqueProjectPage() {
   </h2>
 
   <div className="mt-8 space-y-4 text-lg text-gray-600 dark:text-gray-300">
-    <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
-  As the Flutter Frontend Developer, I was responsible for developing responsive
-  user interfaces, integrating REST APIs provided by the backend team, managing
-  application state with Riverpod, and implementing features including
-  authentication, dashboard, orders, payroll, expenses, invoices, and staff
-  management. I collaborated with the backend team to deliver a smooth and
-  consistent user experience.
+   <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
+  As a Flutter Frontend Developer, I developed responsive user interfaces,
+  integrated REST APIs provided by the backend team, worked with Riverpod
+  for application state management, and contributed to multiple
+  application workflows. I collaborated with the backend team during
+  feature development and API integration.
 </p>
   </div>
 </section>
@@ -138,53 +132,7 @@ export default function BoutiqueProjectPage() {
   </div>
 </section>
 <hr className="my-20 border-gray-200 dark:border-gray-700" />
-<section className="mt-20">
-  <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
-    Key Features
-  </h2>
 
-  <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
-    <div className="rounded-xl border border-gray-200 dark:border-gray-700 p-6">
-      <h3 className="font-semibold text-xl text-gray-900 dark:text-white">
-        Authentication
-      </h3>
-
-      <p className="mt-2 text-gray-600 dark:text-gray-300">
-        Secure login and authentication flow with API integration.
-      </p>
-    </div>
-
-    <div className="rounded-xl border border-gray-200 dark:border-gray-700 p-6">
-      <h3 className="font-semibold text-xl text-gray-900 dark:text-white">
-        Dashboard
-      </h3>
-
-      <p className="mt-2 text-gray-600 dark:text-gray-300">
-        Business overview with revenue, orders, and payment summaries.
-      </p>
-    </div>
-
-    <div className="rounded-xl border border-gray-200 dark:border-gray-700 p-6">
-      <h3 className="font-semibold text-xl text-gray-900 dark:text-white">
-        Order Management
-      </h3>
-
-      <p className="mt-2 text-gray-600 dark:text-gray-300">
-        Browse, search, and manage customer orders through responsive screens.
-      </p>
-    </div>
-
-    <div className="rounded-xl border border-gray-200 dark:border-gray-700 p-6">
-      <h3 className="font-semibold text-xl text-gray-900 dark:text-white">
-        Payroll & Expenses
-      </h3>
-
-      <p className="mt-2 text-gray-600 dark:text-gray-300">
-        Staff payroll and expense management integrated with backend APIs.
-      </p>
-    </div>
-  </div>
-</section>
 <hr className="my-20 border-gray-200 dark:border-gray-700" />
 
 <section className="mt-20">
@@ -193,54 +141,51 @@ export default function BoutiqueProjectPage() {
   </h2>
 
   <p className="mt-4 text-lg text-gray-600 dark:text-gray-300 leading-8">
-    Due to project confidentiality, application screenshots cannot be
-    publicly displayed. The project details below describe the functionality
-    and technologies I worked with.
+    Due to project confidentiality, source code, screenshots, repositories,
+    and proprietary project materials are not publicly displayed.
   </p>
 
   <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
 
     <div className="rounded-xl border border-gray-200 dark:border-gray-700 p-6">
       <h3 className="font-semibold text-xl text-gray-900 dark:text-white">
-        Customer Management
+        Flutter Development
       </h3>
 
       <p className="mt-2 text-gray-600 dark:text-gray-300">
-        Developed interfaces for managing customer information and related
-        business workflows.
+        Developed responsive Flutter interfaces for multiple application workflows.
       </p>
     </div>
 
     <div className="rounded-xl border border-gray-200 dark:border-gray-700 p-6">
       <h3 className="font-semibold text-xl text-gray-900 dark:text-white">
-        Order Management
+        API Integration
       </h3>
 
       <p className="mt-2 text-gray-600 dark:text-gray-300">
-        Implemented order-related screens and workflows for viewing and
-        managing customer orders.
+        Integrated REST APIs provided by the backend team.
       </p>
     </div>
 
     <div className="rounded-xl border border-gray-200 dark:border-gray-700 p-6">
       <h3 className="font-semibold text-xl text-gray-900 dark:text-white">
-        Payroll & Expenses
+        State Management
       </h3>
 
       <p className="mt-2 text-gray-600 dark:text-gray-300">
-        Built interfaces for payroll and expense management and integrated
-        them with backend APIs.
+        Worked with Riverpod for application state management and
+        data-driven workflows.
       </p>
     </div>
 
     <div className="rounded-xl border border-gray-200 dark:border-gray-700 p-6">
       <h3 className="font-semibold text-xl text-gray-900 dark:text-white">
-        Invoice Management
+        Responsive UI
       </h3>
 
       <p className="mt-2 text-gray-600 dark:text-gray-300">
-        Implemented invoice-related functionality as part of the boutique
-        management workflow.
+        Implemented responsive interfaces for different application
+        workflows and screen sizes.
       </p>
     </div>
 
