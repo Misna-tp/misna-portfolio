@@ -6,8 +6,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Crew | Fathima Misna",
-  description:
-    "A cross-platform Flutter application for event and staff management, including event planning, staff allocation, equipment tracking, QR check-ins, invoicing, and payments.",
+ description:
+  "A cross-platform Flutter application developed for event and staff management workflows.",
 };
 // const gallery = [
 //   {
@@ -69,10 +69,8 @@ export default function CrewProjectPage() {
  Crew
 </h1>
 <p className="mt-6 text-lg text-gray-600 dark:text-gray-300 leading-8">
-  Crew is a cross-platform event and staff management application built with
-  Flutter. It connects event organizers and staff through a centralized
-  platform for event planning, staff allocation, equipment tracking,
-  QR-based check-ins, invoicing, and payments.
+  Crew is a cross-platform Flutter application developed for
+event and staff management workflows.
 </p>
 <div className="mt-12 flex justify-center">
   <div className="w-[220px] h-[300px] rounded-2xl border border-gray-300 dark:border-gray-700 bg-gray-100 dark:bg-zinc-900 flex flex-col items-center justify-center text-center px-6 shadow-xl">
@@ -91,10 +89,8 @@ export default function CrewProjectPage() {
   </h2>
 
 <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
-  Crew is a comprehensive event and staff management application designed to
-  streamline the event lifecycle. The platform helps organizers manage events,
-  locations, staff, equipment, check-ins, invoices, payments, and post-event
-  feedback through a centralized mobile application.
+Crew is a Flutter-based application developed to support
+event and staff management workflows through a centralized mobile platform.
 </p>
   
 </section>
@@ -119,7 +115,7 @@ export default function CrewProjectPage() {
 </div>
 </section>
 <hr className="my-20 border-gray-200 dark:border-gray-700" />
-<section className="mt-20">
+
   <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
     Technologies Used
   </h2>
@@ -143,61 +139,7 @@ export default function CrewProjectPage() {
       </span>
     ))}
   </div>
-</section>
-<hr className="my-20 border-gray-200 dark:border-gray-700" />
-<section className="mt-20">
-  <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
-    Key Features
-  </h2>
 
-  <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
-
-  <div className="rounded-xl border border-gray-200 dark:border-gray-700 p-6">
-   <h3 className="font-semibold text-xl text-gray-900 dark:text-white">
-  Multi-Role Architecture
-</h3>
-
-<p className="mt-2 text-gray-600 dark:text-gray-300">
-  Dedicated experiences for organizers, staff, and administrators with secure
-  authentication and OTP verification.
-</p>
-  </div>
-
-  <div className="rounded-xl border border-gray-200 dark:border-gray-700 p-6">
-   <h3 className="font-semibold text-xl text-gray-900 dark:text-white">
-  Event & Staff Management
-</h3>
-
-<p className="mt-2 text-gray-600 dark:text-gray-300">
-  Create and manage events, locations, staff assignments, roles, and salary
-  configurations.
-</p>
-  </div>
-
-  <div className="rounded-xl border border-gray-200 dark:border-gray-700 p-6">
-  <h3 className="font-semibold text-xl text-gray-900 dark:text-white">
-  QR-Based Check-ins
-</h3>
-
-<p className="mt-2 text-gray-600 dark:text-gray-300">
-  Generate and scan QR codes to support quick staff and attendee check-ins
-  at event venues.
-</p>
-  </div>
-
-  <div className="rounded-xl border border-gray-200 dark:border-gray-700 p-6">
-   <h3 className="font-semibold text-xl text-gray-900 dark:text-white">
-  Invoicing & Payments
-</h3>
-
-<p className="mt-2 text-gray-600 dark:text-gray-300">
-  Generate event and equipment invoices and support secure digital payments
-  through Razorpay.
-</p>
-  </div>
-
-</div>
-</section>
 <hr className="my-20 border-gray-200 dark:border-gray-700" />
 
 <section className="mt-20">
@@ -206,54 +148,49 @@ export default function CrewProjectPage() {
   </h2>
 
   <p className="mt-4 text-lg text-gray-600 dark:text-gray-300 leading-8">
-    Due to project confidentiality, application screenshots cannot be
-    publicly displayed. The project details below describe the functionality
-    and technologies I worked with.
+    Due to project confidentiality, source code, screenshots, repositories,
+    and proprietary project materials are not publicly displayed.
   </p>
 
   <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
 
     <div className="rounded-xl border border-gray-200 dark:border-gray-700 p-6">
       <h3 className="font-semibold text-xl text-gray-900 dark:text-white">
-        Event Management
+        Flutter Development
       </h3>
 
       <p className="mt-2 text-gray-600 dark:text-gray-300">
-        Supported event creation, editing, location management, and event
-        tracking workflows.
+        Developed responsive Flutter interfaces for multiple application workflows.
       </p>
     </div>
 
     <div className="rounded-xl border border-gray-200 dark:border-gray-700 p-6">
       <h3 className="font-semibold text-xl text-gray-900 dark:text-white">
-        Staff Management
+        API Integration
       </h3>
 
       <p className="mt-2 text-gray-600 dark:text-gray-300">
-        Implemented staff listing, staff allocation, shift management, and
-        organization-related workflows.
+        Integrated REST APIs and application services provided by the backend team.
       </p>
     </div>
-{/* 
+
     <div className="rounded-xl border border-gray-200 dark:border-gray-700 p-6">
       <h3 className="font-semibold text-xl text-gray-900 dark:text-white">
-        QR & Location Features
+        State Management
       </h3>
 
       <p className="mt-2 text-gray-600 dark:text-gray-300">
-        Worked with QR scanning and location-based functionality using
-        Flutter integrations.
+        Worked with Riverpod to manage application state and data-driven workflows.
       </p>
-    </div> */}
+    </div>
 
     <div className="rounded-xl border border-gray-200 dark:border-gray-700 p-6">
       <h3 className="font-semibold text-xl text-gray-900 dark:text-white">
-        Payments & Earnings
+        Responsive UI
       </h3>
 
       <p className="mt-2 text-gray-600 dark:text-gray-300">
-        Worked with payment-related workflows and earnings management using
-        Razorpay integration.
+        Implemented responsive interfaces for different application workflows and screen sizes.
       </p>
     </div>
 
