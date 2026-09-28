@@ -171,10 +171,12 @@ export default function ProjectCard({
           ) : (
             <div className="w-[180px] h-[180px] rounded-2xl border border-gray-300 dark:border-gray-700 bg-gray-100 dark:bg-zinc-800 flex flex-col items-center justify-center text-center px-4">
               <span className="text-3xl font-bold text-blue-600 dark:text-blue-400">
-                {title === "Boutique Management System"
-                  ? "BOUTIQUE"
-                  : "CREW"}
-              </span>
+  {title === "Boutique Management System"
+    ? "BOUTIQUE"
+    : title === "TaskFlow"
+    ? "TASKFLOW"
+    : "CREW"}
+</span>
 
               <span className="mt-3 text-sm text-gray-500 dark:text-gray-400">
                 Confidential Project
